@@ -23,9 +23,13 @@
 # x=2
 # y=10
 # print(x+y)
-friends=["barsha","kabita","ramita","gita",1,True]
-print(friends)
-print(friends[1])
-print(friends[5])
-print(len(friends))
-print(friends[-1])
+
+# list
+# friends=["barsha","kabita","ramita","gita",1,True]
+# print(friends)
+# print(friends[1])
+# print(friends[5])
+# print(len(friends))
+# print(friends[-1])
+
+# dictionary
