@@ -33,3 +33,77 @@
 # print(friends[-1])
 
 # dictionary
+# friends = {
+#     'name': 'barsha',
+#     'age': 22
+# }
+# friends2 = {'name':'sita'
+#             ,
+#             'age':22
+#             }
+# print(friends)
+# print(friends2.values())
+
+
+
+# list
+# peoples=['gita','sita','mita','barsha','tarsa','iiiaa']
+# # peoples.append("gina")
+# # peoples.insert(0,'barsha')
+# # print(peoples)
+# # peoples.pop(0)
+# print(len(peoples))
+# print(peoples[2:4])
+# print(peoples[0:2])
+
+from tkinter import *
+
+# dictionary
+# friend={
+#     'name':'barsha',
+#     'age':22
+# }
+# if 'name' in friend:
+#     print("name exists")
+# print("hehe")
+# print(friend)
+# del friend['name']
+# print(friend)
+
+# friend['isNepali']=True
+# print(friend['name'])
+# print(friend.keys())
+# print(friend.values())
+
+
+# Tuple
+# my_tuple=(1,2,2,3,'barsha',3.14)
+# print(my_tuple[3])
+# print(my_tuple[4])
+
+# set
+# my_set={1,2,3,3,4}
+# print(my_set)
+
+
+# Operators
+# exponential
+# a=20
+# b=10
+# print(a**b)
+
+# x=4
+# x+=2
+# print(x)
+
+# x=5
+# x^=3
+# print(x)
+
+# x=5
+# x>>=3
+# print(x)
+
+x=5
+x&=3
+print(x)
