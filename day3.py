@@ -94,5 +94,5 @@
 # message="this is a wonderful day"
 # for sms in message:
 #     print(sms)
-for num in range(1,11):
-    print(num)
+# for num in range(1,11):
+#     print(num)
