@@ -53,30 +53,78 @@
 # if len(password)>=8 and  password.alnum()==True:
 #     print("password is correct")
 
-
-direction=str(input("enter the direction is it in left side or right side"))
-
-if direction=="left":
-    print("you have at a pond")
-    choose = str(input("enter do you want  to swim or wait for  boat"))
-    if choose=="swim":
-        print("you reached home")
-        door = int(input("enter the  three door number"))
-        if door == 1:
-            print("door1 win")
-        elif door == 2:
-                print("door2 win")
-        else:
-            print("door3 win")
-    else:
-        print('sorry the boat will not arrive')
-
-else:
-     print("misson failed")
-name="barsha"
-print(f"my name is{name}")
-print("my name is"+name)
+#
+# direction=str(input("enter the direction is it in left side or right side"))
+#
+# if direction=="left":
+#     print("you have at a pond")
+#     choose = str(input("enter do you want  to swim or wait for  boat"))
+#     if choose=="swim":
+#         print("you reached home")
+#         door = int(input("enter the  three door number"))
+#         if door == 1:
+#             print("door1 win")
+#         elif door == 2:
+#                 print("door2 win")
+#         else:
+#             print("door3 win")
+#     else:
+#         print('sorry the boat will not arrive')
+#
+# else:
+#      print("misson failed")
 
 
+# name=str(input("enter your name:"))
+# direction=str(input("enter do you want to go left or right:"))
+# if direction=="left":
+#     print(f"you are at a pond {name}")
+#     choose=str(input(f"enter do you want to swim or boat {name}:"))
+#     if choose=="swim":
+#         print(f"you have reached home {name}")
+#         select=str(input(f"enter in which door you want to enter {name}:"))
+#         if select=="door1":
+#             print("door1 win")
+#         elif select=="door2":
+#             print("door2 win")
+#         else:
+#             print("door 3 will win")
+#     else:
+#         print(f"you haven't reached home {name}")
+# else:
+#     print(f"mission failed {name}")
+#
+# num1=int(input("enter the first number:"))
+# num2=int(input("enter the second number:"))
+# num3=int(input("enter the third number:"))
+# if num1>num2 and num1>num3:
+#     print("num1 and grestest")
+# elif num2>num3 and num2>num1:
+#     print("num2 is grestest")
+# else:
+#     print("num3 is grestest")
+# list
+# a=["barsdha","sita","gita"]
+# print(a[0])
+# print(len(a))
+# a.insert(0,"sister")
+# print(a)
+# a.pop()
+# print(a)
 
+# dictionary
+# friend={
+#     'name':"barsha",
+#     'age':22
+# }
+# print(friend)
+# if 'name' in friend:
+#     print("name is available in filed")
 
+# tuplies
+# name=(1,2,3,"barsha")
+# print(name)
+# print(name[0])
+num=int(input("enter a number"))
+if num>0:
+    print("you are elligible for vote ")
