@@ -51,13 +51,13 @@
 #     print(f"{letter} is vowel letter")
 # else:
 #     print(f"{letter} is consonant")
-# year=int(input("takes any year"))
-# if year%400==0:
-#     print(f"{year} is a leap year")
-# elif year%100!=0 and year%4==0:
-#     print("it is a leap year")
-# else:
-#     print("it is not a leap yar")
+year=int(input("takes any year"))
+if year%400==0:
+    print(f"{year} is a leap year")
+elif year%100!=0 and year%4==0:
+    print("it is a leap year")
+else:
+    print("it is not a leap yar")
 # print("students marks sheet")
 # score=int(input("enter the marks obtained by the students"))
 # if score>90 and score<100:
