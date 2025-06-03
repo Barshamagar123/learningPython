@@ -43,15 +43,15 @@
 #     print(f"the multiplication of {a} is", a)
 #     a+=5
 
-# list=['zone','ball','cat','dog']
-# list.sort()
-# list.sort(reverse=True)
-# # list.append("egg")
-# print(list)
+list=['zone','ball','cat','dog']
+list.sort()
+list.insert(2,"haha")
+list.sort(reverse=True)
+# list.append("egg")
+print(list)
 
 # calculator
 # num=str(input("enter a numbers and operator you want to perform operation"))
 # b=eval(num)
 # print(b)
-
 
