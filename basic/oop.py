@@ -59,3 +59,23 @@
 
 # # Creating an object
 # s1 = Student("Alice", 101)
+
+
+# class
+# class Class1:
+#     name="barsha"
+# print(Class1.name)
+# clas=Class1()
+# example number 2
+# class Class1:
+#     def __init__(self,name):
+#         self.name=name
+#     def func(self):
+#         print("my nane is"+self.name)
+#     def __str__(self):
+#         return self.name
+# c1=Class1(12)
+# c1.func()
+# print(c1)
+
+
