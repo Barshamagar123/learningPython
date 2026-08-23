@@ -1,14 +1,14 @@
 # a,b,c=['barsha','sita','gita'];
 # print(a,b,c);
 
-single variables assignment
+# single variables assignment
 name="barsha"
 age=24
 height=5.8
 is_student=True
 print(name,age,height,is_student)
 
-multiple variable assignment
+# multiple variable assignment
 x,y,z=10,20,30
 print(x,y,z)
 
